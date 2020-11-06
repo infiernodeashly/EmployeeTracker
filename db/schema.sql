@@ -32,3 +32,6 @@ CREATE TABLE departments (
   deptName VARCHAR(30) NOT NULL,
 );
 
+SELECT * FROM employees;
+SELECT * FROM roles;
+SELECT * FROM departments;
