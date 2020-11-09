@@ -9,8 +9,8 @@ CREATE TABLE employees (
   first_name VARCHAR(30) NOT NULL,
   last_name VARCHAR(30) NOT NULL,
   role_id INT,
-  manager_id INT NULL,
-  -- PRIMARY KEY (id)
+  manager_id INT NULL
+ 
   
 );
 
@@ -21,7 +21,7 @@ CREATE TABLE roles (
   id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
   title VARCHAR(30) NOT NULL,
   salary DECIMAL (10,2) NOT NULL,
-  department_id INT default 0,
+  department_id INT default 0
     
 );
 
@@ -29,7 +29,7 @@ CREATE TABLE roles (
 
 CREATE TABLE departments (
   id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-  deptName VARCHAR(30) NOT NULL,
+  deptName VARCHAR(30) NOT NULL
 );
 
 SELECT * FROM employees;
