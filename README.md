@@ -1,5 +1,7 @@
 # EmployeeTracker
 
+Repository: https://github.com/infiernodeashly/EmployeeTracker
+URL: https://infiernodeashly.github.io/EmployeeTracker/#README.md
   
 ## Description 
         
