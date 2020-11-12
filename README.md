@@ -22,7 +22,7 @@ Run “npm I” in your terminal to install dependencies for “inquirer”, “
 
 ## Usage
 
-The user will be prompted with questions asking if they would like to view or add items to the employee, roles, and department tables or update an employee’s role. The user selects an option and responds to any responses. [![Watch the video] (https://youtu.be/mOfbadBgSt4) ![](./asset/EmployeeTracker.gif)
+The user will be prompted with questions asking if they would like to view or add items to the employee, roles, and department tables or update an employee’s role. The user selects an option and responds to any responses. [![Watch the video] (https://youtu.be/mOfbadBgSt4) ![](./assets/EmployeeTracker.gif)
 
 ## License <img src="http://img.shields.io/badge/license-The Unlicense-blue">
 
