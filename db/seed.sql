@@ -1,4 +1,4 @@
-USE ee_info_db;
+USE employeedb_db;
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id) 
 VALUES ('Brian', 'Coaster', 1, null), ('Jim', 'Nal', 4, 2), ('Blake', 'Caulder', 3, null), ('Corie', 'Sayles', 2, 1), ('Sheheryar', 'Qamar', 5, 1);

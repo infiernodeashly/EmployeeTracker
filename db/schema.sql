@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS ee_info_db;
+DROP DATABASE IF EXISTS employeedb_db;
 
-CREATE DATABASE ee_info_db;
+CREATE DATABASE employeedb_db;
 
-USE ee_info_db;
+USE employeedb_db;
 
 
 CREATE TABLE department (
@@ -16,7 +16,6 @@ id INT NOT NULL AUTO_INCREMENT,
 title VARCHAR(30) NOT NULL,
 salary DECIMAL(10,2) NOT NULL,
 department_id INT NOT NULL,
-department_name VARCHAR(30) NOT NULL,
 PRIMARY KEY (id)
 );
 
